@@ -38,7 +38,7 @@ services:
       database:
         condition: service_healthy
       configserver:
-        condition: service_started
+        condition: service_started  
     networks:
       backend:
         aliases:
